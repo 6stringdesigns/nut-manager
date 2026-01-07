@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Consts
-UPS_NAME="nutdev1"                        # NUT UPS identifier (name@host)
+UPS_NAME="nutdev1"                        # NUT UPS identifier (name)
 BATTERY_WAIT_TIME=60                      # Seconds on battery before shutdown
 POWER_RESTORE_WAIT=600                    # Seconds (10min) power must be stable
 MIN_BATTERY_LEVEL=90                      # Minimum battery % before wake
