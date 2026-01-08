@@ -11,3 +11,10 @@ Utilizing Wake on LAN, Wake on AC Power Restore and SSH for shutdowns and startu
 - On power restore, wait for stability (90% battery charge and 10min stable power), then wake clients via Wake on LAN.
 
 This is meant to be ran on its own device that is plugged into the UPS, but doesn't shut down unless the UPS does.  
+
+
+## Requirments
+
+- Network UPS Tools installed on the same machine this script will run on. https://networkupstools.org/
+- UPS that works with NUT. Offical list: https://networkupstools.org/stable-hcl.html
+- `ups.conf` configured properly for your UPS driver: https://networkupstools.org/docs/man/ups.conf.html
