@@ -7,7 +7,7 @@ POWER_RESTORE_WAIT=600                    # Seconds (10min) power must be stable
 MIN_BATTERY_LEVEL=90                      # Minimum battery % before wake
 CHECK_INTERVAL=5                          # Seconds between status checks
 LOG_FILE="/var/log/nut_manager.log"
-STATE_FILE="/var/run/nut_manager.state"
+STATE_FILE="/var/log/nut_manager.state"
 
 # Clients
 # hostname:ip:mac_address
